@@ -34,10 +34,7 @@ const PostsTanstack = () => {
   const { mutate: createPost, isPending } = useMutation({
     mutationFn: addPost,
     onSuccess: (newPost) => {
-      /**
-       * Optimistic update (lokalni cache update)
-       * jer DummyJSON ne perzistira podatke
-       */
+      
       queryClient.setQueryData(['posts', page], (old: any) => {
         if (!old) return old;
 
