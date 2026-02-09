@@ -71,7 +71,7 @@ Komponenta: `PostsTanstack`
 Karakteristike:
 - deklarativan dohvat podataka (`useQuery`),
 - automatsko keširanje i refetching,
-- optimistički update keša,
+- optimizovani update keša,
 - centralizovano upravljanje greškama i loading stanjima,
 - jednostavniji i čitljiviji kod.
 
