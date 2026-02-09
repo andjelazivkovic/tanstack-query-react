@@ -83,3 +83,5 @@ Karakteristike:
 
 ```bash
 npm install
+npm run dev
+Aplikacija će biti dostupna na: http://localhost:5173
